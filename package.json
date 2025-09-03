@@ -6,5 +6,25 @@
     "hbs": "^4.2.0",
     "nocache": "^4.0.0",
     "nodemon": "^3.1.10"
-  }
+  },
+  "name": "login",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mubashirofcl/login-auth.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mubashirofcl/login-auth/issues"
+  },
+  "homepage": "https://github.com/mubashirofcl/login-auth#readme"
 }

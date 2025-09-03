@@ -23,10 +23,7 @@ app.use(
 );
 
 app.use(nocache());
-
-
 app.use("/", userRoute);
-
 
 app.listen(PORT, () =>
     console.log(`Server running on http://localhost:${PORT}`)
