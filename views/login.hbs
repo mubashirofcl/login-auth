@@ -1,0 +1,24 @@
+<body>
+    <div class="center">
+        <div class="dark-card">
+            <h2>Login</h2>
+            <p>Welcome back! Please enter your credentials to access your account.</p>
+
+            <form action="/verify" method="post">
+                <div class="mb-3">
+                    <input type="text" name="username" class="form-control" placeholder="Username" required>
+                </div>
+                <div class="mb-3">
+                    <input type="password" name="password" class="form-control" placeholder="Password" required
+                        id="password">
+                </div>
+                <p class="text-danger">{{msg}}</p>
+                <button type="submit" class="btn-dark-theme1 my-3">Login</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+<script>
+    window.addEventListener("unload", () => { })
+</script>
